@@ -4,7 +4,125 @@
    Author's custom styles
    ========================================================================== */
 
+.home-tiles{
+    border: 0px solid #333;
+    background-color: #ffffff;
+    color: #1a1a1a;
+    font-size: 14px;
+    padding: 0px 8px;
+    margin: 8px 0px;
+}
 
+.home-card{
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.home-tiles img{
+    width: 100%;
+    max-height: 290px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.home-tiles img:hover{
+    width: 100%;
+    max-height: 290px;
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+.info-holder{
+    background-color: #ffffff;
+    padding: 16px 10px;
+    height: 111px;
+}
+
+.info-holder p, .title-holder p{
+    color: #1a1a1a;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.info-icon{
+    float: right;
+    
+}
+
+.title-holder {
+    width: 85%;
+    display: inline-block;
+}
+
+.icon-holder{
+    width: 13%;
+    text-align: right;
+    display: inline-block;
+    font-size: 19px;
+    line-height: 22px;
+    color: #1a1a1a;
+}
+
+.info-holder span{
+    color: #333;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+body {
+    padding: 8px;
+    overflow-y: hidden; 
+    font-family: 'Oxygen', sans-serif;
+}
+
+.left-container{
+    overflow-y: auto;
+    height: 100vh;
+    padding-bottom: 16px;
+}
+
+.right-container{
+    height: 100vh;
+    padding-top: 8px;
+    position: relative;
+}
+
+.link-holder{
+    min-width: 100%;
+    padding: 4px 10px;
+    margin-bottom: 16px;
+    background-color: #fff;
+    border: 1px solid #1a1a1a;
+    color: #1a1a1a;
+}
+
+.link-holder:hover{
+    background-color: #1a1a1a;
+    color: #fff;
+    cursor: pointer;
+}
+
+.link-holder a{
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: inherit;   
+}
+
+.link-holder a:hover{
+    text-decoration: none;
+}
+
+.bottom-divs{
+    width: 84%;
+    position: absolute;
+    bottom: 8px;
+}
+
+.container {
+
+}
 
 
 
