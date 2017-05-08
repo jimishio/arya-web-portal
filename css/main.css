@@ -124,17 +124,44 @@ body {
 
 }
 
+.title{
+    margin-bottom: 45px;
+    font-weight: 500;
+}
+
+.no-top-margin{
+    margin-top: 0px;
+}
+
+.contact-info-holder{
+    width : 100%;
+    margin-bottom: 8px;
+    padding: 10px 15px 10px 0px;
+}
+
+.icon-holder-contact{
+    width: 5%;
+    display: inline-block;
+    font-size: 24px;
+    line-height: 24px;
+    color: #1a1a1a;
+}
+
+.one-line-info-contact{
+    width: 93%;
+    font-size: 18px;
+    display: inline-block;
+    color: #1a1a1a;
+    line-height: 24px;
+}
+
+a {
+    color: #1a1a1a;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+a:hover{
+    color: #1a1a1a;
+    text-decoration: none;
+    cursor: pointer
+}
