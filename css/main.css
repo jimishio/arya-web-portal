@@ -10,7 +10,7 @@
     color: #1a1a1a;
     font-size: 14px;
     padding: 0px 8px;
-    margin: 8px 0px;
+    margin: 4px 0px;
 }
 
 .home-card{
@@ -20,29 +20,27 @@
 
 .home-tiles img{
     width: 100%;
-    max-height: 290px;
+    max-height: 150px;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
 
 .home-tiles img:hover{
-    width: 100%;
-    max-height: 290px;
     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
 }
 
 .info-holder{
     background-color: #ffffff;
-    padding: 16px 10px;
-    height: 111px;
+    padding: 8px;
+    height: 98px;
 }
 
 .info-holder p, .title-holder p{
     color: #1a1a1a;
-    font-size: 19px;
+    font-size: 14px;
     font-weight: bold;
-    margin-bottom: 12px;
+    margin-bottom: 4px;
 }
 
 .info-icon{
@@ -59,14 +57,14 @@
     width: 13%;
     text-align: right;
     display: inline-block;
-    font-size: 19px;
-    line-height: 22px;
+    font-size: 14px;
+    line-height: 16px;
     color: #1a1a1a;
 }
 
 .info-holder span{
     color: #333;
-    font-size: 14px;
+    font-size: 11px;
     font-weight: 200;
 }
 
@@ -121,7 +119,7 @@ body {
 }
 
 .container {
-
+    width: 960px;
 }
 
 .title{
