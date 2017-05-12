@@ -95,7 +95,7 @@ body {
     color: #1a1a1a;
 }
 
-.link-holder:hover{
+.link-holder:hover, .link-holder.small:hover, .link-holder.smaller:hover{
     background-color: #1a1a1a;
     color: #fff;
     cursor: pointer;
@@ -108,8 +108,60 @@ body {
     color: inherit;   
 }
 
+.link-holder.small{
+    margin-bottom: 10px;
+}
+
+.link-holder.smaller{
+    margin-bottom: 10px;
+}
+
+.link-holder.child{
+    margin-bottom: 10px;
+}
+
+.link-holder.smaller.last-child{
+    margin-bottom: 16px;
+}
+
+.link-holder.small a{
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.link-holder.smaller a{
+    font-size: 12px;
+    line-height: 14px;
+}
+
 .link-holder a:hover{
     text-decoration: none;
+    color: #fff;
+}
+
+.link-holder.active{
+    background-color: #1a1a1a;
+    border: 1px solid #1a1a1a;
+    color: #fff;
+}
+
+.link-holder.active:hover{
+    background-color: #fff;
+    border: 1px solid #1a1a1a;
+    color: #1a1a1a;
+}
+
+.link-holder.active a:hover{
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+.mar-l-10{
+    margin-left: 10px;
+}
+
+.mar-l-20{
+    margin-left: 20px;
 }
 
 .bottom-divs{
