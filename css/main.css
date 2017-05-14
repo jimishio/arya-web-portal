@@ -20,7 +20,7 @@
 
 .home-tiles img{
     width: 100%;
-    max-height: 150px;
+    max-height: 220px;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
@@ -33,7 +33,7 @@
 .info-holder{
     background-color: #ffffff;
     padding: 8px;
-    height: 98px;
+    height: 34px;
 }
 
 .info-holder p, .title-holder p{
@@ -65,6 +65,7 @@
 .info-holder span{
     color: #333;
     font-size: 11px;
+    display: none;
     font-weight: 200;
 }
 
