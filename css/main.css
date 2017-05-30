@@ -171,6 +171,8 @@ body {
 
 .container {
     width: 960px;
+    height: 590px;
+    max-height: 590px;
 }
 
 .title{
