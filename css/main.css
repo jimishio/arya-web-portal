@@ -174,8 +174,9 @@ body {
 }
 
 .title{
-    margin-bottom: 45px;
+    margin-bottom: 15px;
     font-weight: 500;
+    color: #b3a633;
 }
 
 .no-top-margin{
@@ -185,23 +186,23 @@ body {
 .contact-info-holder{
     width : 100%;
     margin-bottom: 8px;
-    padding: 10px 15px 10px 0px;
+    padding: 5px;
 }
 
 .icon-holder-contact{
     width: 5%;
     display: inline-block;
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 18px;
     color: #1a1a1a;
 }
 
 .one-line-info-contact{
     width: 93%;
-    font-size: 18px;
+    font-size: 12px;
     display: inline-block;
     color: #1a1a1a;
-    line-height: 24px;
+    line-height: 18px;
 }
 
 a {
@@ -213,4 +214,15 @@ a:hover{
     color: #1a1a1a;
     text-decoration: none;
     cursor: pointer
+}
+
+.contact-img{
+    margin: 0 auto;
+    height: 204px;
+}
+
+.contact-container {
+    position: absolute;
+    width: 100%;
+    bottom: 16px;
 }
