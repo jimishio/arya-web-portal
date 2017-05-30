@@ -183,6 +183,11 @@ body {
     margin-top: 0px;
 }
 
+.no-v-margin{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 .contact-info-holder{
     width : 100%;
     margin-bottom: 8px;
@@ -225,4 +230,8 @@ a:hover{
     position: absolute;
     width: 100%;
     bottom: 16px;
+}
+
+body{
+    font-size: 11.5px;
 }
