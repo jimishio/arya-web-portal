@@ -163,6 +163,14 @@ body {
     margin-left: 20px;
 }
 
+.bold{
+    font-weight: 600;
+}
+
+.mar-l-30{
+    margin-left: 25px;
+}
+
 .bottom-divs{
     width: 84%;
     position: absolute;
