@@ -273,8 +273,16 @@ body.small{
 .slider-img{
     width: auto !important;
     margin: 0 auto !important;
-    left: 50% !important;
-    margin-left: -32% !important;
+    left: 350px !important;
+    margin-left: -175px !important;
+}
+
+.slider-img.full{
+    margin-left: -337px !important;
+}
+
+.slider-img.full-sports{
+    margin-left: -303px !important;
 }
 
 .award-title-container{
