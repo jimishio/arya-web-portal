@@ -41,8 +41,8 @@
 
 .info-holder p, .title-holder p{
     color: #9aa3a4;
-    font-size: 13px;
-    font-weight: bold;
+    font-size: 12px;
+    font-weight: normal;
     margin-bottom: 4px;
 }
 
@@ -80,12 +80,14 @@ body {
 
 .left-container{
     overflow-y: auto;
-    height: 100vh;
+    height: 100%;
+    min-height: 590px;
     padding-bottom: 16px;
 }
 
 .right-container{
-    height: 100vh;
+    height: 100%;
+    min-height: 590px;
     padding-top: 8px;
     position: relative;
 }
@@ -126,8 +128,8 @@ body {
 }
 
 .link-holder.small a{
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 13px;
+    line-height: 14px;
 }
 
 .link-holder.smaller a{
@@ -248,8 +250,65 @@ a:hover{
 
 body{
     font-size: 11.5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -24%;
+    margin-left: -38%;
+}
+
+body.small{
+    font-size: 11.5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -25%;
+    margin-left: -25%;
 }
 
 .margin-b-20{
     margin-bottom: 20px;
+}
+
+.slider-img{
+    width: auto !important;
+    margin: 0 auto !important;
+    left: 50% !important;
+    margin-left: -32% !important;
+}
+
+.award-title-container{
+    font-size: 14px;
+    line-height: 20px;
+    color: #1a1a1a;
+
+}
+
+.award-title{
+    font-weight: bold;
+}
+
+.award-desc{
+    font-style: italic;
+    color: #333;
+    margin-left: 18px;
+}
+
+.mar-b-20{
+    margin-bottom: 20px;
+}
+
+.logo-img{
+    width: 45px;
+    height: 45px;
+}
+
+footer{
+    display: none;
+}
+
+#slidingDiv.slider{
+    max-height: 280px;
+    overflow-y: auto;
+    overflow-x: hidden;
 }

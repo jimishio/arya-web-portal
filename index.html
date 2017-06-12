@@ -30,7 +30,7 @@
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
-    <body>
+    <body class="small">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -41,7 +41,7 @@
           <div class="left-container col-lg-9 col-xs-12 col-md-9" style="margin-top:8px;">
             <div class="row">
                 <div class="col-md-4 home-tiles">
-                    <div class="home-card" onclick="window.location.href='projects/transit/workshop/surat.html'">
+                    <div class="home-card" onclick="window.location.href='projects/transit/surat-workshop.html'">
                         <img src="img/home/transit-infrastructure.jpg" class="img-responsive"/>
                         <div class="info-holder">
                             <div class="title-holder">
@@ -85,7 +85,7 @@
             </div>
             <div class="row">
                 <div class="col-md-4 home-tiles">
-                    <div class="home-card">
+                    <div class="home-card" onclick="window.location.href='projects/education/diu.html'">
                         <img src="img/home/education.jpg" class="img-responsive"/>
                         <div class="info-holder">
                             <div class="title-holder">
@@ -168,7 +168,39 @@
           </div>
           <div class="col-lg-3 col-md-3 right-container">
               <div class="link-holder">
-                <a class="">Projects</a>
+                <a class="" id="projectsLink">Projects</a>
+              </div>
+              <div id="slidingDiv" style="display:none">
+                <div class="link-holder small">
+                    <a class="">Tourism Planning</a>
+                </div>
+                <div class="link-holder mar-l-20 smaller">
+                    <a class="" href="projects/tourism/mewar-complex.html">Mewar Complex</a>
+                </div>
+                <div class="link-holder small">
+                    <a class="">Education Facilities</a>
+                </div>
+                <div class="link-holder mar-l-20 smaller ">
+                    <a class="" href="projects/education/diu.html">Education Hub at Diu</a>
+                </div>
+                <div class="link-holder small">
+                    <a class="">Public Space</a>
+                </div>
+                <div class="link-holder mar-l-20 smaller ">
+                    <a class="" href="projects/public-space/street-smart.html">Street Smart</a>
+                </div>
+                <div class="link-holder small">
+                    <a class="">Sports</a>
+                </div>
+                <div class="link-holder mar-l-20 smaller ">
+                    <a class="" href="projects/sports/veer-savarkar.html">Veer Savarkar Sports Complex</a>
+                </div>
+                <div class="link-holder small">
+                    <a class="">Transit Infrastructure</a>
+                </div>
+                <div class="link-holder mar-l-20 smaller">
+                    <a class="" href="projects/transit/surat-workshop.html">Surat Workshop and Depot</a>
+                </div>
               </div>
               <div class="link-holder">
                 <a class="">Publications</a>
@@ -177,7 +209,7 @@
                 <a class="">Research</a>
               </div>
               <div class="link-holder">
-                <a class="">Awards</a>
+                <a class="" href="awards.html">Awards</a>
               </div>
 
               <div class="bottom-divs">
@@ -199,6 +231,7 @@
         <script src="js/vendor/bootstrap.min.js"></script>
 
         <script src="js/main.js"></script>
+        <script src="js/slide.js"></script>
 
         
     </body>
