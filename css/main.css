@@ -277,6 +277,13 @@ body.small{
     margin-left: -175px !important;
 }
 
+.slider-img.competitions{
+    margin-left: -265px !important;
+}
+.slider-img.competitions-2{
+    margin-left: -315px !important;
+}
+
 .slider-img.full{
     margin-left: -337px !important;
 }
