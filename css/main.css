@@ -211,7 +211,8 @@ body {
 }
 
 .icon-holder-contact{
-    width: 6%;
+    width: 5%;
+    margin-right: 4px;
     display: inline-block;
     font-size: 18px;
     line-height: 18px;
@@ -219,7 +220,7 @@ body {
 }
 
 .one-line-info-contact{
-    width: 93%;
+    width: 90%;
     font-size: 12px;
     display: inline-block;
     color: #1a1a1a;
