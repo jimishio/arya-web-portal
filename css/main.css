@@ -85,6 +85,12 @@ body {
     padding-bottom: 16px;
 }
 
+.left-container.scroll-container{
+    height: 590px;
+}
+
+
+
 .right-container{
     height: 100%;
     min-height: 590px;
@@ -102,6 +108,7 @@ body {
 .link-holder:hover, .link-holder.small:hover, .link-holder.smaller:hover{
     color: #1a1a1a;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .link-holder a{
@@ -130,6 +137,14 @@ body {
 .link-holder.small a{
     font-size: 13px;
     line-height: 14px;
+}
+
+.link-holder.small a:hover, 
+.link-holder.small a:active{
+    font-size: 13px;
+    line-height: 14px;
+    text-decoration: none;
+    cursor: normal;
 }
 
 .link-holder.smaller a{
@@ -211,16 +226,16 @@ body {
 }
 
 .icon-holder-contact{
-    width: 5%;
+    width: 22px;
     margin-right: 4px;
     display: inline-block;
     font-size: 18px;
     line-height: 18px;
-    color: #1a1a1a;
+    color: #b3a633;
 }
 
 .one-line-info-contact{
-    width: 90%;
+    width: 80%;
     font-size: 12px;
     display: inline-block;
     color: #1a1a1a;
@@ -312,6 +327,14 @@ body.small{
 
 .mar-b-20{
     margin-bottom: 20px;
+}
+
+.award-container{
+    min-height: 45px;
+}
+
+.mar-b-5{
+    margin-bottom: 5px;
 }
 
 .logo-img{
