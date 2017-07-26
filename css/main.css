@@ -346,6 +346,14 @@ footer{
     display: none;
 }
 
+.publication-container{
+    margin-bottom: 20px;
+}
+
+.publication-container span b{
+    font-size: 13px;
+}
+
 #slidingDiv.slider{
     max-height: 280px;
     overflow-y: auto;
