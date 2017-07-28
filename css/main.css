@@ -144,7 +144,8 @@ body {
     font-size: 13px;
     line-height: 14px;
     text-decoration: none;
-    cursor: normal;
+    cursor: auto;
+    color: #1a1a1a;
 }
 
 .link-holder.smaller a{
@@ -308,6 +309,18 @@ body.small{
     margin-left: -303px !important;
 }
 
+.slider-img-airport{
+    width: auto !important;
+    left: 35px !important;
+
+}
+
+.slider-img-airport.a2{
+    width: auto !important;
+    left: 46px !important;
+
+}
+
 .award-title-container{
     font-size: 14px;
     line-height: 20px;
@@ -372,4 +385,41 @@ html {
 body {
     display: table-cell;
     vertical-align: middle;
+}
+
+.jssora106 {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+}
+
+.jssora106.jssora106dn .c {
+    opacity: .2;
+}
+.jssora106 .c {
+    fill: #fff;
+    opacity: .3;
+}
+
+.jssora106.jssora106dn .a {
+    opacity: 1;
+}
+
+.jssora106 .a {
+    fill: none;
+    stroke: #000;
+    stroke-width: 350;
+    stroke-miterlimit: 10;
+}
+
+a.contact-href{
+    color:#b3a633;
+    text-decoration: underline;
+}
+
+.logo-name{
+    font-size: 20px;
+    letter-spacing: 3.5px;
+    margin-left: 2px;
+    color: #b77c3a;
 }
