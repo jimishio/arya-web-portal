@@ -100,7 +100,7 @@ body {
 
 .link-holder{
     min-width: 100%;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     background-color: #fff;
     color: #1a1a1a;
 }
@@ -312,10 +312,11 @@ body.small{
 .slider-img-airport{
     width: auto !important;
     left: 35px !important;
-
+    height: 470px !important;
 }
 
-.slider-img-airport.a2{
+.slider-img-airport-a2{
+    height: 470px !important;
     width: auto !important;
     left: 46px !important;
 
@@ -351,8 +352,8 @@ body.small{
 }
 
 .logo-img{
-    width: 45px;
-    height: 45px;
+    width: 65px;
+    height: 65px;
 }
 
 footer{
@@ -419,7 +420,11 @@ a.contact-href{
 
 .logo-name{
     font-size: 20px;
-    letter-spacing: 3.5px;
-    margin-left: 2px;
+    letter-spacing: 2.4px;
+    margin-left: 12px;
     color: #b77c3a;
+}
+
+a i{
+    color: #b3a633;
 }
