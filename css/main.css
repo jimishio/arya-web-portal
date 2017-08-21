@@ -428,3 +428,16 @@ a.contact-href{
 a i{
     color: #b3a633;
 }
+
+@media only screen and (max-width: 720px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 65%;
+    }
+    .display-mobile-none{
+        
+    }
+    .right-container{
+        display: none;
+    }
+}
